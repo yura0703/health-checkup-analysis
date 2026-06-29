@@ -1,0 +1,13 @@
+# 민감 데이터 — 절대 올리면 안 됨
+data/*.xlsx
+data/*.csv
+*.xlsx
+
+# 환경/임시 파일
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# 대용량 결과물
+results/
+*.png
